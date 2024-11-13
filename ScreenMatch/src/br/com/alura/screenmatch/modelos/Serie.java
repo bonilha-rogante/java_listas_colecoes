@@ -49,6 +49,6 @@ public class Serie extends Titulo {
 
     @Override
     public String toString() {
-        return "Série: " + getNome() + " | Temporadas: " + getTemporadas();
+        return "Série: " + getNome() + "(" + this.getAnoDeLancamento() + ")";
     }
 }
